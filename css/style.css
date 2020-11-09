@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.title{
+  background: yellow;
+  height: 100px;
+  margin: 10px 20px;
+}
+
+.violet-box{
+  background: violet;
+  width: 25%;
+  height: 400px;
+  float:left;
+  margin:0 20px;
+}
+.purple-box{
+  background: purple;
+  width: calc(50% - 20px);
+  height: 600px;
+  float: left;
+}
+
+
+.pink-box{
+  background: pink;
+  width: 20%;
+  height: 200px;
+  float: left;
+  margin: 0px 20px 10px;
+}
+
+.azure-box{
+  background: blue;
+  height: 100px;
+  margin: 10px 20px;
+}
